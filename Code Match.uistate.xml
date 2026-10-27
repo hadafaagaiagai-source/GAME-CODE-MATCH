@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout active="1" order="0">Menu</layout>
+        <layout order="1">SelectLevel</layout>
+        <layout order="5">Game</layout>
+        <layout order="7">GameOver</layout>
+        <layout order="8">Win</layout>
+        <event-sheet order="2">EsMenu</event-sheet>
+        <event-sheet order="3">EsGlobal</event-sheet>
+        <event-sheet order="4">EsSelect</event-sheet>
+        <event-sheet order="6">EsGame</event-sheet>
+        <event-sheet order="9">EsClear</event-sheet>
+        <event-sheet order="10">EsOver</event-sheet>
+        <event-sheet order="11">EsWin</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/bg_menu/" />
+        <folder expanded="1" path="animation-folder/logo_code_match/" />
+        <folder expanded="1" path="animation-folder/btn_play/" />
+        <folder expanded="1" path="animation-folder/TitleSelect/" />
+        <folder expanded="1" path="animation-folder/BtnMenu/" />
+        <folder expanded="1" path="animation-folder/BtnLevel/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/BgGame/" />
+        <folder expanded="1" path="animation-folder/Kartu/" />
+        <folder expanded="1" path="animation-folder/Nyawa/" />
+        <folder expanded="1" path="animation-folder/BtnHint/" />
+        <folder expanded="1" path="animation-folder/BtnNext/" />
+        <folder expanded="1" path="animation-folder/PanelHud/" />
+        <folder expanded="1" path="animation-folder/TitleGameOver/" />
+        <folder expanded="1" path="animation-folder/TitleLevelClear/" />
+        <folder expanded="1" path="animation-folder/TitleWin/" />
+        <folder expanded="1" path="animation-folder/BgGameOver/" />
+        <folder expanded="1" path="animation-folder/BgWin/" />
+        <folder expanded="1" path="animation-folder/BtnRetry/" />
+        <folder expanded="1" path="animation-folder/BtnPlayAgain/" />
+    </folders-expanded>
+</c2uistate>

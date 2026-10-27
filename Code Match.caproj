@@ -1,0 +1,502 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Code Match</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>vlloqgzangqp</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+    </used-plugins>
+    <used-behaviors />
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>640</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Point</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="bg_menu" sid="581167235972320">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="352849848269931" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\GAME-PEMBELAJARAN\bg_menu.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="logo_code_match" sid="695395611709726">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="417273391414424" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\GAME-PEMBELAJARAN\logo_code_match.png">
+                        <collision-poly>
+                            <point x="0.0597015" y="0.25" />
+                            <point x="0.5" y="0.25" />
+                            <point x="0.925373" y="0.3125" />
+                            <point x="0.940298" y="0.5" />
+                            <point x="0.940298" y="0.75" />
+                            <point x="0.5" y="0.6875" />
+                            <point x="0.0746269" y="0.6875" />
+                            <point x="0.0447761" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btn_play" sid="703356430575123">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="242455936226544" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\GAME-PEMBELAJARAN\btn_play.png">
+                        <collision-poly>
+                            <point x="0.0208333" y="0.0714286" />
+                            <point x="0.5" y="0" />
+                            <point x="0.979167" y="0.0714286" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="438205866372415">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="TitleSelect" sid="855238197068429">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="425098079334610" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\GAME-PEMBELAJARAN\title_select_level.png">
+                        <collision-poly>
+                            <point x="0.0266667" y="0.166667" />
+                            <point x="0.92" y="0.5" />
+                            <point x="0.92" y="0.5" />
+                            <point x="0.973333" y="0.833333" />
+                            <point x="0.0266667" y="0.833333" />
+                            <point x="0.04" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BtnMenu" sid="401224474139833">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="483581182223297" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\GAME-PEMBELAJARAN\btn_menu.png">
+                        <collision-poly>
+                            <point x="0.0208333" y="0.0714286" />
+                            <point x="0.5" y="0" />
+                            <point x="0.979167" y="0.0714286" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BtnLevel" sid="297427190284761">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Num" sid="135989820613572" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="6" loop="0" name="L1" pingpong="0" repeatcount="1" repeatto="0" sid="962740373045736" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\GAME-PEMBELAJARAN\btn_level1.png">
+                        <collision-poly>
+                            <point x="0.0178571" y="0.0714286" />
+                            <point x="0.5" y="0" />
+                            <point x="0.982143" y="0.0714286" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\GAME-PEMBELAJARAN\btn_level2.png">
+                        <collision-poly>
+                            <point x="0.0178571" y="0.0714286" />
+                            <point x="0.5" y="0" />
+                            <point x="0.982143" y="0.0714286" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\GAME-PEMBELAJARAN\btn_level3.png">
+                        <collision-poly>
+                            <point x="0.0178571" y="0.0714286" />
+                            <point x="0.5" y="0" />
+                            <point x="0.982143" y="0.0714286" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="0" hotspotX="0.5" hotspotY="0.5" original-source="D:\GAME-PEMBELAJARAN\btn_level4.png">
+                        <collision-poly>
+                            <point x="0.0178571" y="0.0714286" />
+                            <point x="0.5" y="0" />
+                            <point x="0.982143" y="0.0714286" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\GAME-PEMBELAJARAN\btn_level5.png">
+                        <collision-poly>
+                            <point x="0.0178571" y="0.0714286" />
+                            <point x="0.5" y="0" />
+                            <point x="0.982143" y="0.0714286" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\GAME-PEMBELAJARAN\btn_level6.png">
+                        <collision-poly>
+                            <point x="0.0178571" y="0.0714286" />
+                            <point x="0.5" y="0" />
+                            <point x="0.982143" y="0.0714286" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="913436891820454">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="844738053578123" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BgGame" sid="556582706598070">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="319266861099885" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\GAME-PEMBELAJARAN\bg_game.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Kartu" sid="660751003191468">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="PairID" sid="376848798877409" type="number" />
+                <instance-variable name="State" sid="336949227196739" type="number" />
+                <instance-variable name="CardIdx" sid="504514526777708" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Back" pingpong="0" repeatcount="1" repeatto="0" sid="289012963331071" speed="1">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\GAME-PEMBELAJARAN\card_back.png">
+                        <collision-poly>
+                            <point x="0.0416667" y="0.0333333" />
+                            <point x="0.5" y="0" />
+                            <point x="0.958333" y="0.0333333" />
+                            <point x="1" y="0.5" />
+                            <point x="0.958333" y="0.966667" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0416667" y="0.966667" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Front" pingpong="0" repeatcount="1" repeatto="0" sid="633995917974940" speed="1">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\GAME-PEMBELAJARAN\card_front.png">
+                        <collision-poly>
+                            <point x="0.0416667" y="0.0333333" />
+                            <point x="0.5" y="0" />
+                            <point x="0.958333" y="0.0333333" />
+                            <point x="1" y="0.5" />
+                            <point x="0.958333" y="0.966667" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0416667" y="0.966667" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Match" pingpong="0" repeatcount="1" repeatto="0" sid="269602840396020" speed="1">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\GAME-PEMBELAJARAN\card_matched.png">
+                        <collision-poly>
+                            <point x="0.0416667" y="0.0333333" />
+                            <point x="0.5" y="0" />
+                            <point x="0.958333" y="0.0333333" />
+                            <point x="1" y="0.5" />
+                            <point x="0.958333" y="0.966667" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0416667" y="0.966667" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Wrong" pingpong="0" repeatcount="1" repeatto="0" sid="930040841644376" speed="1">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\GAME-PEMBELAJARAN\card_wrong.png">
+                        <collision-poly>
+                            <point x="0.0416667" y="0.0333333" />
+                            <point x="0.5" y="0" />
+                            <point x="0.958333" y="0.0333333" />
+                            <point x="1" y="0.5" />
+                            <point x="0.958333" y="0.966667" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0416667" y="0.966667" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Hint" pingpong="0" repeatcount="1" repeatto="0" sid="646788529443416" speed="1">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\GAME-PEMBELAJARAN\card_hint.png">
+                        <collision-poly>
+                            <point x="0.0416667" y="0.0333333" />
+                            <point x="0.5" y="0" />
+                            <point x="0.958333" y="0.0333333" />
+                            <point x="1" y="0.5" />
+                            <point x="0.958333" y="0.966667" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0416667" y="0.966667" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TeksKartu" sid="517780110101146">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="Owner" sid="686532896838347" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type name="Nyawa" sid="866991648516578">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Idx" sid="744769019754435" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Full" pingpong="0" repeatcount="1" repeatto="0" sid="471319540692390" speed="0">
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.5" original-source="D:\GAME-PEMBELAJARAN\heart_full.png">
+                        <collision-poly>
+                            <point x="0.111111" y="0.125" />
+                            <point x="0.888889" y="0.125" />
+                            <point x="0.888889" y="0.5" />
+                            <point x="0.777778" y="0.75" />
+                            <point x="0.488889" y="1" />
+                            <point x="0.222222" y="0.75" />
+                            <point x="0.111111" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Empty" pingpong="0" repeatcount="1" repeatto="0" sid="811496163610859" speed="0">
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.5" original-source="D:\GAME-PEMBELAJARAN\heart_empty.png">
+                        <collision-poly>
+                            <point x="0.111111" y="0.125" />
+                            <point x="0.888889" y="0.125" />
+                            <point x="0.888889" y="0.5" />
+                            <point x="0.777778" y="0.75" />
+                            <point x="0.488889" y="1" />
+                            <point x="0.222222" y="0.75" />
+                            <point x="0.111111" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BtnHint" sid="864841097391145">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="547311059811300" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\GAME-PEMBELAJARAN\btn_hint.png">
+                        <collision-poly>
+                            <point x="0.0238095" y="0.0714286" />
+                            <point x="0.5" y="0" />
+                            <point x="0.97619" y="0.0714286" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type global="1" name="Deck" sid="759644449982420">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="Audio" sid="806017224273323">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="Keyboard" sid="745583525653687">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="TxtLevel" sid="388733579317715">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TxtScore" sid="594887740936802">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TxtTime" sid="393901047262070">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TxtHints" sid="759683384283533">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="BtnNext" sid="506769757893581">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="555921356117074" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PanelHud" sid="150262166722075">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="542789462438606" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TitleGameOver" sid="706837563838503">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="845085102735255" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TitleLevelClear" sid="218130965623074">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="259755970919442" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TitleWin" sid="538214364633217">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="716419434133023" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BgGameOver" sid="449499791638441">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="930157227396304" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BgWin" sid="845643228045105">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="313669414227925" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BtnRetry" sid="432466086500822">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="421532166000505" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BtnPlayAgain" sid="250875145436357">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="537541086325150" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TxtPesan" sid="809110898856295">
+            <plugin id="Text" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Menu.xml</layout>
+        <layout>SelectLevel.xml</layout>
+        <layout>Game.xml</layout>
+        <layout>GameOver.xml</layout>
+        <layout>LevelClear.xml</layout>
+        <layout>Win.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>EsMenu.xml</event-sheet>
+        <event-sheet>EsSelect.xml</event-sheet>
+        <event-sheet>EsGlobal.xml</event-sheet>
+        <event-sheet>EsGame.xml</event-sheet>
+        <event-sheet>EsClear.xml</event-sheet>
+        <event-sheet>EsOver.xml</event-sheet>
+        <event-sheet>EsWin.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Mouse" uid="3" />
+        <global-instance type="Keyboard" uid="20" />
+        <global-instance type="Audio" uid="200">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder>
+        <file name="05_tombol.ogg" />
+        <file name="01_kartu_buka.ogg" />
+        <file name="02_cocok.ogg" />
+        <file name="03_salah.ogg" />
+        <file name="04_hint.ogg" />
+        <file name="09_waktu_hampir_habis.ogg" />
+        <file name="06_level_selesai.ogg" />
+        <file name="07_game_over.ogg" />
+        <file name="08_menang_semua.ogg" />
+    </sounds-folder>
+    <music-folder>
+        <file name="10_musik_latar_loop.ogg" />
+    </music-folder>
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
